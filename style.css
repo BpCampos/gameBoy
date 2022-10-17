@@ -1,0 +1,149 @@
+body {
+    background-image: url(/images/background.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aparelho {
+    display: flex;
+    margin-top: 200px;
+    width: 350px;
+    height: 550px;
+    background-color: rgb(236, 12, 12);
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 10px 10px 30px 10px;
+    box-shadow: 5px 5px rgb(148, 6, 6);
+}
+
+.tela {
+    position: relative;
+    margin-top: 16px;
+    width: 90%;
+    height: 33%;
+    background-color: rgb(83, 243, 83);
+    box-shadow: inset 2px 3px 3px rgb(51, 77, 51);
+    border-radius: 1px 1px 10px 1px;
+    z-index: 100;
+}
+
+.botoes-direita {
+    position: relative;
+    top: 60px;
+    left: 60px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.button-b {
+    position: absolute;
+    bottom: 180px;
+    background-color: rgb(219, 216, 216);
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    right: 110px;
+    box-shadow: 4px 4px rgb(44, 43, 43);
+}
+.button-a {
+    position: absolute;
+    background-color: rgb(219, 216, 216);
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    box-shadow: 4px 4px rgb(44, 43, 43);
+    top: 240px;
+    right: 50px;
+}
+
+.botoes-esquerda {
+    position: relative;
+    bottom: 230px;
+    left: 190px;
+}
+
+.botoes-esquerda img {
+    z-index: 1;
+    width: 20px;
+}
+
+.arrow1 {
+    position: absolute;
+    top: 536px;
+    right: 440px;
+}
+
+.arrow2{
+    position: absolute;
+    top: 586px;
+    right: 389px;
+    transform: rotate(90deg);
+}
+
+.arrow3{
+    position: absolute;
+    top: 633px;
+    right: 440px;
+    transform: rotate(180deg);
+}
+
+.arrow4{
+    position: absolute;
+    top: 586px;
+    right: 487px;
+    transform: rotate(270deg);
+}
+
+.up-down {
+    position: absolute;
+    width: 20px;
+    height: 110px;
+    background-color: rgb(189, 186, 186);
+    top: 540px;
+    right: 440px;
+    border-radius: 10px;
+    box-shadow: 4px 4px rgb(43, 42, 42);
+}
+
+.right-left {
+    position: absolute;
+    width: 110px;
+    height: 20px;
+    background-color: rgb(189, 186, 186);
+    top: 586px;
+    right: 394px;
+    border-radius: 10px;
+    box-shadow: 4px 0px rgb(43, 42, 42);
+    
+}
+
+.speakers {
+    position: relative;
+    top: 490px;
+    right: 300px;
+}
+
+.speaker1 {
+    position: absolute;
+    width: 50px;
+    height: 12px;
+    background-color: rgb(49, 48, 48);
+    left: 235px;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px black;
+}
+
+.speaker2 {
+    position: absolute;
+    width: 50px;
+    height: 12px;
+    background-color: rgb(49, 48, 48);
+    border-radius: 10px;
+    box-shadow: inset 2px 2px black;
+}
+
+
+
+
